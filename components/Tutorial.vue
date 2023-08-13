@@ -9,20 +9,23 @@
       </div>
       <div class="is-overlay">
         <div class="columns is-mobile is-centered is-vcentered">
-          <div class="column is-6-desktop">
+          <div class="column is-7-desktop">
             <div class="bottom-circle-mobile has-text-centered">
-  <div class="upper-Square has-text-centered">
-    <br>
-    <div class="center is-size-5 is-size-7-mobile">
-      <strong style="color: rgb(0, 0, 0)">فروشگاه اینترنتی</strong>
-      <strong style="color: blue">فناورداده</strong>
-    </div>
-  </div>
-</div>
+              <div
+                class="upper-Square-desktop upper-Square-mobile has-text-centered"
+              >
+                <div class="center is-size-5 is-size-7-mobile">
+                  <strong style="color: rgb(0, 0, 0)"
+                    >اپلیکشن فروشگاه اینترنتی</strong
+                  >
+                  <strong style="color: blue">خودت رو بساز</strong>
+                </div>
+              </div>
+            </div>
             <p
               class="is-size-3 is-size-7-mobile has-text-white has-text-weight-bold has-text-centered text-titr"
             >
-              سرعت چند برابری رو با فروشگاه ما تجربه کنید!
+با فناورداده هم فروشگاه اینترنتی داشته باش هم اپلیکیشن
             </p>
             <p
               class="is-size-5 is-size-7-mobile has-text-centered has-text-white text-header-img-mobile text-head-desktop"
@@ -30,14 +33,16 @@
               از شروع راه اندازی سایت و فروشگاه اینترنتی تا رسیدن به فروش بالا و
               سیستم سازی در کنارتان هستیم
             </p>
-            <div class="has-text-centered">
-              <button class="button is-primary is-size-7-mobile">
-                نمایش دمو
+          </div>
+          <div class="column has-text-left is-4-desktop is-4-mobile pl-5 pt-4">
+            <img src="mypc.png" class="border" />
+            <div class="has-text-left pl-5">
+              <button
+                class="button is-primary is-size-7-mobile has-text-weight-bold button-mobile button-desktop"
+              >
+                دمو !
               </button>
             </div>
-          </div>
-          <div class="column has-text-left is-4-desktop is-4-mobile pl-5">
-            <img src="mypc.png" class="border" />
           </div>
         </div>
       </div>
@@ -57,16 +62,16 @@
           <li>موثر ترین مولفه در بهبود رتبه ی گوگل</li>
         </ul>
         <ul class="mt-5 is-size-5 is-size-7-mobile">
-          <li>کاهش نرخ برگشتی یا bounce rate</li>
+          <li>باعث بالا بردن رضایت مندی بازدیدکننده ها</li>
         </ul>
         <ul class="mt-5 is-size-5 is-size-7-mobile">
-          <li>بالا بردن نرخ تبدیل</li>
+          <li>بالا بردن نرخ تبدیل (تبدیل بازدید کننده به فروش)</li>
         </ul>
         <ul class="mt-5 is-size-5 is-size-7-mobile">
-          <li>رضایت بازدید کننده ها</li>
+          <li>افزایش رضایت بازدید کننده ها</li>
         </ul>
         <ul class="mt-5 is-size-5 is-size-7-mobile">
-          <li>و در نتیجه افزایش بازدید و افزایش فروش</li>
+          <li>و در نتیجه رابطه کاربری بهتر و آسان تر</li>
         </ul>
       </div>
     </div>
@@ -80,10 +85,10 @@
         <div class="columns is-mobile is-centered">
           <div class="column">
             <p
-              class="is-size-3 is-size-6-mobile has-text-white has-text-weight-bold has-text-centered"
+              class="is-size-3 is-size-7-mobile has-text-white has-text-weight-bold has-text-centered"
             >
-              فقط تا جمعه 20 مرداد وقت دارید از فروشگاه ما با تخفیف استفاده
-              کنید!
+              جهت مشاوره رایگان راه اندازی فروشگاه اینترنتی شماره خود را
+              وارد نمایید!
             </p>
             <p
               class="is-size-5 is-size-7-mobile has-text-centered has-text-weight-bold has-text-white pt-6 is-desktop-mobile is-hidden-mobile"
@@ -104,7 +109,9 @@
               </p>
             </div>
           </div>
-          <div class="column has-text-left is-2-desktop offer-image">
+          <div
+            class="column has-text-left is-2-desktop is-4-mobile offer-image"
+          >
             <img src="stars-offer.png" />
           </div>
         </div>
@@ -133,7 +140,7 @@
     <div
       class="box text-box-mobile text-box-desktop is-size-5 is-size-6-mobile mt-6"
     >
-      <p class="has-text-weight-bold">ویژگی ها و امکانات سایت:</p>
+      <p class="has-text-weight-bold has-text-white">ویژگی ها و امکانات :</p>
     </div>
 
     <div class="columns is-mobile is-centered is-vcentered color-box">
@@ -147,13 +154,13 @@
       <div
         class="column is-four-fifths-mobile is-8-desktop has-text-centered box has-background-link-dark"
       >
-        <div class="columns is-mobile is-centered is-vcentered width-box">
+        <div class="columns is-mobile is-centered is-vcentered ">
           <div class="column has-text-white">
-            <p class="has-text-weight-bold">PWA</p>
+            <p class="has-text-weight-bold is-size-5-desktop pb-4">
+              اپلیکشن اندروید
+            </p>
             <p>
-              بدون ساخت برنامه ایی برای موبایل می توانید سایتتون رو مثل یک
-              برنامه تنظیم کنید که مانند برنامه برای یک برنامه در گوشی نصب شود
-              برنامه برای کاربر رفتار کند
+با قرار دادن برنامه خود در بازار و استور های دیگر <br>فروش خود را بالا ببرید
             </p>
           </div>
           <div class="column">
@@ -167,9 +174,11 @@
       <div
         class="column is-four-fifths-mobile is-8-desktop has-text-centered box has-background-grey-light"
       >
-        <div class="columns is-mobile is-centered is-vcentered width-box">
-          <div class="column has-text-white">
-            <p class="has-text-weight-bold">خدمات پیشرفته</p>
+        <div class="columns is-mobile is-centered is-vcentered ">
+          <div class="column has-text-white text-space">
+            <p class="has-text-weight-bold is-size-5-desktop pb-4">
+              خدمات پیشرفته
+            </p>
             <p>
               خدماتی که شامل ساخت برنامه پیش رونده (PWA) و قراردادن برنامه در
               بازارچه اندرویدی می باشد
@@ -200,9 +209,11 @@
       <div
         class="column is-four-fifths-mobile is-8-desktop has-text-centered box has-background-link-dark"
       >
-        <div class="columns is-mobile is-centered is-vcentered width-box">
-          <div class="column has-text-white">
-            <p class="has-text-weight-bold">مکان یابی (GPS)</p>
+        <div class="columns is-mobile is-centered is-vcentered ">
+          <div class="column has-text-white justify">
+            <p class="has-text-weight-bold is-size-5-desktop pb-4">
+              مکان یابی (GPS)
+            </p>
             <p>
               قابلیت دریافت آدرس دقیق از طریق مکان یاب (GPS) از کاربران و ارسال
               محصولات و دیگر نقاط مختلف مورد نیاز پنل یا سیستم
@@ -219,9 +230,11 @@
       <div
         class="column is-four-fifths-mobile is-8-desktop has-text-centered box has-background-grey-light"
       >
-        <div class="columns is-mobile is-centered is-vcentered width-box">
-          <div class="column has-text-white">
-            <p class="has-text-weight-bold">سرویس پیامک</p>
+        <div class="columns is-mobile is-centered is-vcentered ">
+          <div class="column has-text-white text-space">
+            <p class="has-text-weight-bold is-size-5-desktop pb-4">
+              سرویس پیامک
+            </p>
             <p>
               قابلیت ارسال پیامک به هر نقطه از پنل یا سیستم و حتی ارسال پیام
               برای کاربران
@@ -252,9 +265,11 @@
       <div
         class="column is-four-fifths-mobile is-8-desktop has-text-centered box has-background-link-dark"
       >
-        <div class="columns is-mobile is-centered is-vcentered width-box">
+        <div class="columns is-mobile is-centered is-vcentered">
           <div class="column has-text-white">
-            <p class="has-text-weight-bold">حسابداری و انبارداری</p>
+            <p class="has-text-weight-bold is-size-5-desktop pb-4">
+              حسابداری و انبارداری
+            </p>
             <p>
               این نرم افزار بین حسابداری و وب سایت فروشگاهی ارتباط پایداری
               برقرار می کند و با ایجاد بستری مناسب امکان افزایش فروش به صورت
@@ -357,9 +372,12 @@
         <img src="Customer satisfaction.jpg" alt="Customer satisfaction" />
       </div>
       <div class="column">
-        <h1 class="is-size-4 is-size-7-mobile has-text-weight-bold pl-6">
-          شرکت فناورداده همواره در تلاش است تا برای جلب رضایت مشتری تمام تلاش
-          خود را برای رساندن شما به فروش بالا و سیستم سازی فروشگاه کند.
+        <h1 class="is-size-5 is-size-7-mobile has-text-weight-bold pl-6 font-size">
+          اگر تجربه ای در راه اندازی فروشگاه ندارید، احتمال داره
+          تصمیم گیری و شروع برای شما دشوار باشه. اما اصلا نگران نباشید، چرا؟
+          چون شرکت فناورداده از ابتدای راه اندازی فروشگاه
+         تا بازاریابی و
+      رسیدن به    فروش در کنار شماست.
         </h1>
       </div>
     </div>
@@ -416,10 +434,17 @@
             >
               مجوز های شرکت فناورداده :
             </h4>
-            <a href="#" class="mt-4" style="display: flex">
+            <div class="mt-4" >
+              <a href="https://logo.samandehi.ir/Verify.aspx?id=273652&p=uiwkjyoexlaogvkadshwuiwk">
               <img src="samandehi.png" alt="samandehi" class="namad-one" />
+              </a>
+              <a href="https://trustseal.enamad.ir/?id=235741&Code=WthQZMp3ti50gRN9qwyF">
               <img src="enamad.png" alt="enamad" class="namad-two" />
             </a>
+            <a href="https://logo.saramad.ir/verify.aspx?CodeShamad=1-2-834228-62-0-1">
+              <img src="farhangohonar.png" alt="نماد مرکز فرهنگ و هنر در فضای مجازی" class="namad-two" />
+              </a>
+            </div>
           </div>
 
           <!-- Column 3 -->
@@ -431,9 +456,9 @@
             <div
               class="box has-text-centered telephone-box has-text-white mt-4 py-0"
             >
-              <a href="#" class="pt-6 has-text-white">
+              <a href="#" class=" has-text-white">
                 <img src="telephone.png" class="telephonepng" />
-                021-31304027
+                021-91304027
               </a>
             </div>
             <div

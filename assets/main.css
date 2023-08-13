@@ -19,16 +19,7 @@
 }
 
 
-.upper-Square {
-  width: 330px;
-  height: 50px;
-  background-color: #ffffff;
-  border-top-left-radius: 3em;
-  border-top-right-radius: 3em;
-  border-bottom-right-radius: 3em;
-  border-bottom-left-radius: 3em;
-  display: inline-flex;
-}
+
 
 .center {
   margin: auto auto;
@@ -46,6 +37,14 @@
 }
 
 @media screen and (max-width: 1400px) {
+.font-size{
+  line-height: 200%;
+}
+  
+  .text-space{
+    padding-right: 6%;
+  }
+
  .text-titr{
   padding-top: 3%;
  }
@@ -79,13 +78,16 @@
     border-bottom-right-radius: 1em;
     border-bottom-left-radius: 1em;
     color: #2c2c2c;
-    transform: translate( -120% );
-    width: 30%;
+    transform: translate( -204% );
+    width: 20%;
   }
 
   .text-head-desktop{
     padding-top: 58px;
     line-height: 250%;
+    
+    padding-left: 5%;
+    padding-right: 5%;
     
   }
   .bottom-circle-mobile {
@@ -98,29 +100,47 @@
     margin-top: 2%;
   }
 
-  .upper-Square {
-    width: 270px;
-    height: 70px;
+  .upper-Square-desktop {
+    width: 399px;
+height: 45px;
     background-color: #ffffff;
     border-top-left-radius: 3em;
     border-top-right-radius: 3em;
     border-bottom-right-radius: 3em;
     border-bottom-left-radius: 3em;
-    transform: translate(-10% , 0%);
+    transform: translate(-5% , 41%);
     
   }
   
+  .button-desktop{
+    margin-top: 4%;
+    width: 50%;
+    height: 50%;
+    margin-top: 20%;
+      }
+
+      .justify{
+        padding-right: 6%;
+      }
+    
 }
 
 
 @media screen and (max-width: 768px) {
+
+  .button-mobile{
+margin-top: 4%;
+width: 70%;
+    height: 10%;
+  }
+
   .color-box{
     margin-top: 6px;
   }
 
   .text-header-img-mobile{
-    padding-top: 10px;
-    line-height: 20px;
+    padding-top: 0px;
+line-height: 18px;
   }
 
 
@@ -132,8 +152,8 @@
     border-bottom-right-radius: 1em;
     border-bottom-left-radius: 1em;
     color: #2c2c2c;
-    transform: translate( -30% , -10%);
-    width: 60%;
+    transform: translate( -50% , -10%);
+    width: 50%;
   }
 
   .box-email{
@@ -174,15 +194,15 @@
 margin-top: 1%;
   }
 
-  .upper-Square {
-    width: 140px;
-    height: 20px;
+  .upper-Square-mobile {
+    width: 220px;
+    height: 24px;
     background-color: #ffffff;
     border-top-left-radius: 3em;
     border-top-right-radius: 3em;
     border-bottom-right-radius: 3em;
     border-bottom-left-radius: 3em;
-    transform: translate(-4% , -51%);
+    transform: translate(-4% , 21%)
     
   }
 
@@ -547,7 +567,7 @@ margin-top: 1%;
 .telephone-box {
   background-color: blue;
   width: 50%;
-  height: 20%;
+  height: 12%;
   margin-right: 25%;
 
 }
